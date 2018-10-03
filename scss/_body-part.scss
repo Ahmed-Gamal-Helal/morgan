@@ -1,0 +1,124 @@
+.carousel-slider {
+    position: relative;
+    .owl-carousel { 
+        .owl-item {
+            img {
+                padding: 0;
+            }
+        }
+        .owl-nav [class*=owl-] {
+            background: #000000;
+            font-size: 24px;
+            padding: 6px 9px;
+            line-height: .75;
+            margin: 5px 30px;
+            border-radius: 4px;
+        }
+        .owl-nav {
+            position: absolute;
+            top: 45%;
+            left: 0;
+            right: 0;
+            margin: 0;
+            .owl-prev {
+                float: right;
+            }
+            .owl-next {
+                float: left;
+            }
+        }
+    }
+
+}
+.our-message {
+    .paragraph-side {
+        h3 {
+            color: $secColor;
+            font-family: 'jf-md';
+        }
+        p {
+            line-height: 2.5;
+            margin-top: 2em;
+            font-family: 'jf-md';
+        }
+    }
+    .image-side {
+        text-align: center;
+        margin-top: 5em;
+    }
+}
+.our-products {
+    h3 {
+        color: $secColor;
+        border-bottom: 1px solid #EEE;
+        padding-bottom: .75em;
+    }
+    .general-item {
+        text-align: center;
+        border: 1px solid #EEE;
+        padding: 1.5em 0.25em 0.25em 0.25em;
+        margin: 1em 0;
+        border-radius: 4px;
+        min-height: 293px;
+        -webkit-transition: all .5s  ease-in-out;
+        transition: all .5s  ease-in-out;
+        a {
+            font-size: 16px;
+            color: $black;
+            font-family: 'jf-bd';
+        }
+        img {
+            width: 200px;
+            min-height: 111px;
+        }
+        span {
+            font-size: 20px;
+            font-family: 'jf-bd';
+            color: $secColor;
+        }
+        .btn-hearts {
+            margin-top: 2.5em;
+            border: 1px solid #EEE;
+            width: 100%;
+            border-radius: 4px;
+            padding: 12px;
+            -webkit-transition: all .5s  ease-in-out;
+            transition: all .5s  ease-in-out;
+            a { 
+                line-height: 1.1;
+                i.flaticon-like {
+                    float: right;
+                    font-size: 20px;
+                    &:hover {
+                        color: red;
+                    }
+                }
+                i.flaticon-zoom-in {
+                    float: left;
+                    text-align: left;
+                    font-size: 20px;
+                }
+                i {
+                    -webkit-transition: all .25s  ease-in-out;
+                    transition: all .25s  ease-in-out;
+                }
+            }
+            button {
+                font-family: 'jf-bd';
+            }
+        }
+        &:hover {
+            border: 1px solid $secColor;
+            .btn-hearts {
+                border: 1px solid $secColor;
+                i {                        
+                    -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+                }
+                i.flaticon-like {
+                    color: red;
+                }
+            }
+        }
+    }
+}

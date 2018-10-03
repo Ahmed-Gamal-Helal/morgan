@@ -1,0 +1,37 @@
+/*
+Errno::ENOSPC: No space left on device @ dir_s_mkdir - .sass-cache/ce969aa98411dd61e24061ee36642f9a5e1b935a
+
+Backtrace:
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:253:in `mkdir'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:253:in `fu_mkdir'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:227:in `block (2 levels) in mkdir_p'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:225:in `reverse_each'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:225:in `block in mkdir_p'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:211:in `each'
+C:/Ruby23/lib/ruby/2.3.0/fileutils.rb:211:in `mkdir_p'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/cache_stores/filesystem.rb:38:in `_store'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/cache_stores/base.rb:51:in `store'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/cache_stores/chain.rb:19:in `block in store'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/cache_stores/chain.rb:19:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/cache_stores/chain.rb:19:in `store'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:425:in `_to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/bin/sass:13:in `<top (required)>'
+C:/Ruby23/bin/sass:22:in `load'
+C:/Ruby23/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOSPC: No space left on device @ dir_s_mkdir - .sass-cache/ce969aa98411dd61e24061ee36642f9a5e1b935a"; }

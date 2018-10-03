@@ -1,0 +1,143 @@
+
+@import 'variables';
+
+
+/*** Start Global Properties ***/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing   : border-box;
+    -o-box-sizing     : border-box;
+    box-sizing        : border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    height: 100%;
+    font-family: $baseFont;
+    direction: rtl;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'jf-bd';
+}
+a {
+    font-family: 'jf-bd';
+	line-height: 1.7;
+	margin: 0px;
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    &:hover {
+        text-decoration: none;
+    }
+    &:focus {
+        outline: none !important;
+    }   
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea {
+	outline: none;
+    // border: none;
+    &::placeholder {
+        font-family: $baseFont !important;
+        color: #DDD !important;
+    }
+}
+
+button {
+	outline: none !important;
+    border: none;
+    font-family: $baseFont;
+    background: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+img {
+    // min-width: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .25s ease-in-out; 
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+.width-adjust {
+    width: 100% !important;
+}
+.upload-it {
+    padding-top: 1.2em;
+    padding-right: 0 !important;
+}
+input.wizard, select.wizard {
+    height: 4em;
+    border: 1px solid #dbdbdb;
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+}
+input.personal-passport {
+    padding-top: 1.2em;
+    border: none;
+    background-color: $white;
+}
+.padding-adjust {
+    padding: 1.2em;
+}
+.margin-left-8 {
+    margin-left: 8px !important;
+}
+.margin-adjust-table {
+    margin-top: 3em;
+}
+.fa-trash {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.home-search-drop {
+    color: $black !important;
+}
+.margin-adjusting {
+    margin: 6em 0;
+}
+/*** End Global Properties ***/
+
+/*** Start Upper-Header ***/
+@import '_upper-header';
+/*** End Upper-Header ***/
+
+/*** Start _body-part.***/
+@import '_body-part';
+/*** End _body-part. ***/
+
+/*** Start _body-part.***/
+@import '_media-query';
+/*** End _body-part. ***/
+
+/*** Start Footer ***/
+@import '_footer';
+/*** End Footer ***/

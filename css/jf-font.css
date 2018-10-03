@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'jf-bd';
+    src: url('../fonts/jf-font/JFFlat-Regular.woff2') format('woff2'),
+        url('../fonts/jf-font/JFFlat-Regular.woff') format('woff'),
+        url('../fonts/jf-font/JFFlat-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jf-md';
+    src: url('../fonts/jf-font/JFFlat-Medium.woff2') format('woff2'),
+        url('../fonts/jf-font/JFFlat-Medium.woff') format('woff'),
+        url('../fonts/jf-font/JFFlat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jf-r';
+    src: url('../fonts/jf-font/JFFlat-Light.woff2') format('woff2'),
+        url('../fonts/jf-font/JFFlat-Light.woff') format('woff'),
+        url('../fonts/jf-font/JFFlat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
